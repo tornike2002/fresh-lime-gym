@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundColor: {
+        "light-lime": "#e6f2ef",
+      },
     },
   },
   plugins: [],
