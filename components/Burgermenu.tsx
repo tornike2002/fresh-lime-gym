@@ -24,18 +24,15 @@ const Burgermenu = () => {
           <Image src={logo} alt="logo" width={95} height={28} />
         </Link>
         {burgerIcon === false ? (
-          <HiBars3
-            onClick={toggleMenu}
-            className="text-2xl cursor-pointer"
-          />
+          <HiBars3 onClick={toggleMenu} className="text-4xl cursor-pointer" />
         ) : null}
       </nav>
       <AnimatePresence>
         {burgerIcon && (
           <motion.div
-            initial={{ x: '100%', opacity: 0.5 }} 
-            animate={{ x: 0, opacity: 1, }} 
-            exit={{ x: '100%', opacity: 0.5 }} 
+            initial={{ x: "100%", opacity: 0.5 }}
+            animate={{ x: 0, opacity: 1 }}
+            exit={{ x: "100%", opacity: 0.5 }}
             transition={{ duration: 0.5 }}
             className="fixed inset-0 flex flex-col justify-center items-center 
             gap-5 text-light-grey font-medium text-2xl font-Rubik 
@@ -43,7 +40,7 @@ const Burgermenu = () => {
           >
             <RxCross1
               onClick={toggleMenu}
-              className="absolute top-4 right-6 text-2xl cursor-pointer z-50"
+              className="absolute top-4 right-6 text-4xl cursor-pointer z-50"
             />
             <Link href="#">How it works</Link>
             <Link href="#">Inside us</Link>
