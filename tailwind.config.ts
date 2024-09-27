@@ -9,8 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        "light-grey": "#333",
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      backgroundColor: {
+        "light-lime": "#e6f2ef",
+      },
+      fontFamily: {
+        Rubik: ["Rubik", "sans-serif"],
       },
     },
   },
