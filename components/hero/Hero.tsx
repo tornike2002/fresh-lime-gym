@@ -90,6 +90,7 @@ const Hero = () => {
           </h2>
         </div>
       </div>
+      {/* hero gym image */}
       <div className="mb-14 mt-9">
         <Image
           src={gym}
