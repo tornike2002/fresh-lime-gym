@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "custom-hero": "0 1px 15px 0px #077252",
+      },
       colors: {
         "light-grey": "#333",
         background: "var(--background)",
