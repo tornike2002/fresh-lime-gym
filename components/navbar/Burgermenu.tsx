@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../assets/home/logo.png";
+import logo from "../../assets/home/logo.png";
 import { HiBars3 } from "react-icons/hi2";
 import { RxCross1 } from "react-icons/rx";
 import Link from "next/link";
