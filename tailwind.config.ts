@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       boxShadow: {
         "custom-hero": "0 1px 15px 0px #077252",
+        "insite-card": "0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)",
       },
       colors: {
         "light-grey": "#333",
