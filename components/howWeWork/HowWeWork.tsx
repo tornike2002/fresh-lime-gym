@@ -1,5 +1,6 @@
 import React from "react";
 import BenefitCard from "./WorkCards/BenefitCard";
+import PersonalTrainerCard from "./WorkCards/PersonalTrainerCard";
 
 const HowWeWork = () => {
   return (
@@ -8,6 +9,7 @@ const HowWeWork = () => {
         HOW WE WORK
       </h1>
       <BenefitCard />
+      <PersonalTrainerCard />
     </section>
   );
 };
