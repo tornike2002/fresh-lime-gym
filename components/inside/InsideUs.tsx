@@ -1,5 +1,6 @@
 import BestBarsCard from "./insideCards/BestBarsCard";
 import CardioCard from "./insideCards/CardioCard";
+import OurEquipment from "./OurEquipment";
 
 const InsideUs = () => {
   return (
@@ -16,6 +17,10 @@ const InsideUs = () => {
       </p>
       <CardioCard />
       <BestBarsCard />
+
+      <div>
+        <OurEquipment />
+      </div>
     </section>
   );
 };
