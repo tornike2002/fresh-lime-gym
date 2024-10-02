@@ -1,6 +1,7 @@
 import React from "react";
 import BenefitCard from "./WorkCards/BenefitCard";
 import PersonalTrainerCard from "./WorkCards/PersonalTrainerCard";
+import GymEquipmentCard from "./WorkCards/GymEquipmentCard";
 
 const HowWeWork = () => {
   return (
@@ -10,6 +11,7 @@ const HowWeWork = () => {
       </h1>
       <BenefitCard />
       <PersonalTrainerCard />
+      <GymEquipmentCard />
     </section>
   );
 };
