@@ -1,3 +1,4 @@
+import BestBarsCard from "./insideCards/BestBarsCard";
 import CardioCard from "./insideCards/CardioCard";
 
 const InsideUs = () => {
@@ -14,6 +15,7 @@ const InsideUs = () => {
         At our gym u will find everything u need
       </p>
       <CardioCard />
+      <BestBarsCard />
     </section>
   );
 };
