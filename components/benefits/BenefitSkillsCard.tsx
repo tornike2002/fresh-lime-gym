@@ -7,7 +7,7 @@ type benefitTypes = {
 const BenefitSkillsCard = ({ img, desc, name }: benefitTypes) => {
   return (
     <div>
-      <div className="font-Rubik flex flex-col gap-2 pb-[75px] pt-[25px]">
+      <div className="font-Rubik flex flex-col gap-2  pt-[25px]">
         <Image
           src={img}
           alt="img"
