@@ -38,7 +38,7 @@ const Tips = () => {
           <IoIosPause className="text-[#087f5b] w-[25px] h-[25px]  text-[25px] rounded-full bg-[#b5d9ce]" />
         </div>
         <TipsCard
-          title="Natural and organic"
+          title="pause anytime"
           description="You got full year and have vacation? pause it, it is possible with us"
         />
       </div>
