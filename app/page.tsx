@@ -1,4 +1,5 @@
 import Benefits from "@/components/benefits/Benefits";
+import Dream from "@/components/dream/Dream";
 import FeaturedHello from "@/components/featured/FeaturedHello";
 import Hero from "@/components/hero/Hero";
 import HowWeWork from "@/components/howWeWork/HowWeWork";
@@ -12,6 +13,7 @@ export default function Home() {
       <HowWeWork />
       <InsideUs />
       <Benefits />
+      <Dream />
     </section>
   );
 }
