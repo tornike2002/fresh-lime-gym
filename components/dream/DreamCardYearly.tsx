@@ -1,5 +1,6 @@
 import { GiScales } from "react-icons/gi";
-const DreamCardMontly = () => {
+
+const DreamCardYearly = () => {
   return (
     <div className="border-[2px] border-[#e6f2ef] rounded-xl mt-8">
       <div className="font-Rubik p-[36.6px]">
@@ -42,4 +43,4 @@ const DreamCardMontly = () => {
   );
 };
 
-export default DreamCardMontly;
+export default DreamCardYearly;
