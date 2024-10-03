@@ -4,6 +4,7 @@ import FeaturedHello from "@/components/featured/FeaturedHello";
 import Hero from "@/components/hero/Hero";
 import HowWeWork from "@/components/howWeWork/HowWeWork";
 import InsideUs from "@/components/inside/InsideUs";
+import Tips from "@/components/tips/Tips";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <InsideUs />
       <Benefits />
       <Dream />
+      <Tips />
     </section>
   );
 }
