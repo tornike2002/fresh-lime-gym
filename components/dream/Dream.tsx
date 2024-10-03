@@ -1,4 +1,5 @@
 import DreamCardMontly from "./DreamCardMontly";
+import DreamCardYearly from "./DreamCardYearly";
 
 const Dream = () => {
   return (
@@ -11,6 +12,13 @@ const Dream = () => {
       </h1>
       <div>
         <DreamCardMontly />
+        <DreamCardYearly />
+      </div>
+      <div>
+        <p className="text-[#555] text-[12.8px] text-center pt-10 pb-10">
+          Prices include all applicable taxes. You can cancel at any time. Both
+          plans include the following:
+        </p>
       </div>
     </section>
   );
