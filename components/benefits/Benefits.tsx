@@ -14,13 +14,13 @@ const Benefits = () => {
   return (
     <section
       id="testemonials"
-      className="bg-[#e6f2ef] px-6 md:flex md:flex-col"
+      className="bg-[#e6f2ef] px-6 md:flex md:flex-col lg:flex-row lg:items-center lg:py-20 lg:px-[6rem]"
     >
       <div className="pb-[75px]">
-        <h1 className="pt-[75px] pb-5 text-[#077252] font-Rubik font-medium text-[12.8px]">
+        <h1 className="pt-[75px] pb-5 text-[#077252] font-Rubik font-medium text-[12.8px] xl:text-[16px]">
           HOW WE WORK
         </h1>
-        <h1 className="pb-3 font-Rubik text-[26.3px] text-[#333] font-bold tracking-[-0.5px] leading-[1]">
+        <h1 className="pb-3 font-Rubik text-[26.3px] text-[#333] font-bold tracking-[-0.5px] leading-[1] xl:text-[48px]">
           Our benefits and skills that make u happy
         </h1>
         <div className="md:flex md:flex-wrap md:-mx-3 md:gap-4">
@@ -71,7 +71,7 @@ const Benefits = () => {
         </div>
       </div>
       {/* gallery images */}
-      <div className="flex flex-wrap gap-2 justify-center pb-5 md:flex-nowrap">
+      <div className="flex flex-wrap gap-2 justify-center pb-5 md:flex-nowrap lg:flex-wrap xl:flex-wrap lg:py-10">
         <div className="w-[30%] overflow-hidden rounded-[15px] ">
           <Image
             src={gallery1}

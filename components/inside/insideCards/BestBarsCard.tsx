@@ -7,13 +7,13 @@ const BestBarsCard = () => {
   return (
     <div
       className="shadow-insite-card font-Rubik hover:-translate-y-[15px]
- transition-all duration-500 ease rounded-[11px] pt-[38px] h-fit md:w-[33%]"
+ transition-all duration-500 ease rounded-[11px] pt-[38px] h-fit md:w-[33%] lg:w-[30%]"
     >
       <Image src={bestBards} alt="cardio" className="w-full rounded-t-[11px]" />
       <div className="p-[25px] flex flex-col gap-3">
         <p
-          className="bg-[##94d82d] text-[#333]  
-     text-[9.6px] rounded-full font-semibold px-[6px] py-[3px] w-fit"
+          className="bg-[#94d82d] text-[#333]  
+     text-[9.6px] rounded-full font-semibold px-[6px] py-[3px] w-fit lg:text-[12px]"
         >
           HEAVY BARS
         </p>
@@ -21,8 +21,9 @@ const BestBarsCard = () => {
           Best Bars
         </h2>
         <ul className="text-[#555] text-[14.4px] leading-[1] flex flex-col gap-3">
-          <li className="flex items-center gap-3">
-            <IoBarbell className="text-[19px] text-[#40c057]" /> 100KG plus
+          <li className="flex items-center gap-2">
+            <IoBarbell className="text-[19px] text-[#40c057]" />
+            <b>100KG</b>plus
           </li>
           <li className="flex items-center gap-3">
             <TfiCup className="text-[19px] text-[#40c057]" /> champion

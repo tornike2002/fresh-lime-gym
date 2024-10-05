@@ -3,11 +3,11 @@ import { CiSquarePlus } from "react-icons/ci";
 const OurEquipment = () => {
   return (
     <section className="mt-16 md:w-[100%]">
-      <h2 className="font-Rubik text-center font-bold text-[19px] text-[#333]">
+      <h2 className="font-Rubik text-center font-bold text-[19px] text-[#333] lg:text-[30px]">
         Our equipment:
       </h2>
       <div className="flex justify-center flex-col items-center pt-6 mb-14">
-        <ul className="flex flex-col gap-3 font-Rubik text-[14.4px] text-[#555]">
+        <ul className="flex flex-col gap-3 font-Rubik text-[14.4px] lg:text-[18px] text-[#555]">
           <li className="flex items-center gap-3">
             <RiCheckDoubleFill className="text-[#40c057] text-[24px]" /> CHEST
             PRESS MACHINE

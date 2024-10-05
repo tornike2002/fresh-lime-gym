@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer
       className="px-6 border-t  border-[#eee] pt-24 pb-24 md:flex md:flex-row-reverse
-     md:items-start md:justify-center md:gap-7"
+     md:items-start md:justify-center md:gap-7 max-w-custom mx-auto lg:justify-between"
     >
-      <div className="flex items-center gap-3 justify-between">
+      <div className="flex items-center gap-3 justify-between md:w-[60%] md:justify-evenly">
         <ul className="font-Rubik flex flex-col gap-1">
           <li className="text-[#555] text-[14.4px] font-medium">Account</li>
           <li className="text-[#767675] text-[12.8px] pt-3">
@@ -56,7 +56,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="pt-24 flex justify-between items-start md:pt-0">
+      <div className="pt-24 flex justify-between items-start md:pt-0 md:w-[40%] md:justify-evenly">
         <div className="flex flex-col gap-4">
           <Image src={logo} alt="logo" className="w-[62px]" />
           <div className="flex items-center gap-5 text-[19px] text-[#767676]">

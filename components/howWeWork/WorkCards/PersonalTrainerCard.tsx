@@ -16,11 +16,16 @@ const PersonalTrainerCard = () => {
         <div className="absolute top-1/2 left-1/2 w-[80%] pb-[60%] bg-[#b5d9ce] rounded-[20px] -translate-x-1/2 -translate-y-1/2 z-[-1]" />
       </div>
       <div>
-        <p className="font-Rubik text-6xl text-[#ddd] pb-[9px] pt-[25px] md:font-medium">02</p>
-        <h2 className="pb-[25px] font-Rubik text-[19px] text-[#333] font-bold">
+        <p
+          className="font-Rubik text-6xl text-[#ddd] pb-[9px]
+         pt-[25px] md:font-medium lg:text-[98px]"
+        >
+          02
+        </p>
+        <h2 className="pb-[25px] font-Rubik text-[19px] text-[#333] font-bold lg:text-[30px]">
           One of the best personal trainers
         </h2>
-        <p className="font-Rubik text-[14.4px] text-[#555] leading-[1.8]">
+        <p className="font-Rubik text-[14.4px] text-[#555] leading-[1.8] lg:text-[18px]">
           In our gym u will find world of the champions of bodybuilding and
           exactly they will make sure that u will succeses
         </p>

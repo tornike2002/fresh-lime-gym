@@ -8,14 +8,14 @@ import usa from "../../assets/featured/usa-today.png";
 
 const FeaturedHello = () => {
   return (
-    <section className="pt-[38px] pb-[76px]">
+    <section className="pt-[38px] pb-[76px] max-w-custom mx-auto px-6">
       <h2
         className="text-center font-Rubik text-[11px]
-       text-[#999] font-medium pb-[19px]"
+       text-[#999] font-medium pb-[19px] lg:text-[14px]"
       >
         As featured in hello
       </h2>
-      <div className="flex items-center gap-3 justify-center w-full">
+      <div className="flex items-center gap-3 justify-center w-full md:justify-between">
         <Image
           src={tech}
           alt="img"

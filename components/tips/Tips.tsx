@@ -5,10 +5,10 @@ import { IoIosPause } from "react-icons/io";
 import { IoIosPulse } from "react-icons/io";
 const Tips = () => {
   return (
-    <section className="px-6 md:flex md:gap-4 md:justify-between md:items-center md:mb-10">
+    <section className="px-6 md:flex md:gap-4 md:justify-between md:items-center md:mb-10 max-w-custom sm:mx-auto">
       <div className="flex flex-col gap-5 pt-[50px] md:w-[25%]">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
-          <IoIosPulse className="text-[#087f5b]  text-[25px]  " />
+          <IoIosPulse className="text-[#087f5b]  text-[25px]  lg:text-[36px] " />
         </div>
         <TipsCard
           title="Tranin every day!"
@@ -17,7 +17,7 @@ const Tips = () => {
       </div>
       <div className="flex flex-col gap-5 pt-[50px] md:w-[25%]">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
-          <GiKnifeFork className="text-[#087f5b]  text-[25px]  " />
+          <GiKnifeFork className="text-[#087f5b]  text-[25px]  lg:text-[36px] " />
         </div>
         <TipsCard
           title="Natural and organic"
@@ -26,7 +26,7 @@ const Tips = () => {
       </div>
       <div className="flex flex-col gap-5 pt-[50px] md:w-[25%]">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
-          <IoRocketOutline className="text-[#087f5b] bg-[#b5d9ce] w-[25px] h-[25px]  text-[25px]  rounded-full" />
+          <IoRocketOutline className="text-[#087f5b] bg-[#b5d9ce]   text-[25px]  lg:text-[36px] rounded-full" />
         </div>
         <TipsCard
           title="motivation"
@@ -35,7 +35,7 @@ const Tips = () => {
       </div>
       <div className="flex flex-col gap-5 pt-[50px] md:w-[25%] pb-[50px] md:pb-0">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
-          <IoIosPause className="text-[#087f5b] w-[25px] h-[25px]  text-[25px] rounded-full bg-[#b5d9ce]" />
+          <IoIosPause className="text-[#087f5b]   text-[25px] lg:text-[36px] rounded-full bg-[#b5d9ce]" />
         </div>
         <TipsCard
           title="pause anytime"

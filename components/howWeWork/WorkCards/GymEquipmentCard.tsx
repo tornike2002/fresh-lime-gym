@@ -14,13 +14,13 @@ const GymEquipmentCard = () => {
             />
           </div>
           <div>
-            <p className="font-Rubik text-6xl text-[#ddd] pb-[9px] pt-[25px]">
+            <p className="font-Rubik text-6xl text-[#ddd] pb-[9px] pt-[25px] lg:text-[98px]">
               03
             </p>
-            <h2 className="pb-[25px] font-Rubik text-[19px] text-[#333] font-bold">
+            <h2 className="pb-[25px] font-Rubik text-[19px] text-[#333] font-bold lg:text-[30px]">
               Gym equipment
             </h2>
-            <p className="font-Rubik text-[14.4px] text-[#555] leading-[1.8]">
+            <p className="font-Rubik text-[14.4px] text-[#555] leading-[1.8] lg:text-[18px]">
               In our gym we are trying to have fresh and newest gym equipments,
               follow the trend and have everything to make easy and light your
               workout session
