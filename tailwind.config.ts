@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "mail-custom": "linear-gradient(to right bottom, #52a58c, #087f5b)",
+      },
       boxShadow: {
         "custom-hero": "0 1px 15px 0px #077252",
         "insite-card": "0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)",
