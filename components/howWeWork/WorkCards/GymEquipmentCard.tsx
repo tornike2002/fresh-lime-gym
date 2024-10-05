@@ -4,7 +4,7 @@ const GymEquipmentCard = () => {
   return (
     <section>
       <div className="pt-3 pb-6">
-        <div className="flex justify-center flex-col mt-5">
+        <div className="flex justify-center flex-col mt-5 md:flex-row-reverse md:gap-4">
           <div className="flex justify-center w-[90%]  pt-5 pb-5 bg-[#e6f2ef] rounded-[20px]">
             <Image
               src={equipment}

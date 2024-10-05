@@ -1,11 +1,14 @@
 import Image from "next/image";
 import logo from "../../assets/home/logo.png";
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
-import Link from "next/link"; 
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="px-6 border-t border-[#eee] pt-24 pb-24">
+    <footer
+      className="px-6 border-t  border-[#eee] pt-24 pb-24 md:flex md:flex-row-reverse
+     md:items-start md:justify-center md:gap-7"
+    >
       <div className="flex items-center gap-3 justify-between">
         <ul className="font-Rubik flex flex-col gap-1">
           <li className="text-[#555] text-[14.4px] font-medium">Account</li>
@@ -53,7 +56,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="pt-24 flex justify-between items-start">
+      <div className="pt-24 flex justify-between items-start md:pt-0">
         <div className="flex flex-col gap-4">
           <Image src={logo} alt="logo" className="w-[62px]" />
           <div className="flex items-center gap-5 text-[19px] text-[#767676]">

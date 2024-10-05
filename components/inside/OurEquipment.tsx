@@ -2,7 +2,7 @@ import { RiCheckDoubleFill } from "react-icons/ri";
 import { CiSquarePlus } from "react-icons/ci";
 const OurEquipment = () => {
   return (
-    <section className="mt-16">
+    <section className="mt-16 md:w-[100%]">
       <h2 className="font-Rubik text-center font-bold text-[19px] text-[#333]">
         Our equipment:
       </h2>
@@ -44,7 +44,7 @@ const OurEquipment = () => {
             <CiSquarePlus className="text-[#40c057] text-[24px]" /> AND WAY MORE
           </li>
         </ul>
-        <div className="pt-5">
+        <div className="pt-5 md:hidden">
           <a
             href="#"
             className="text-[#087f5b] font-Rubik pb-1 text-[14.4px] border-b border-b-[#087f5b] 

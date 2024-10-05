@@ -2,7 +2,8 @@ import { GiScales } from "react-icons/gi";
 
 const DreamCardYearly = () => {
   return (
-    <div className="border-[2px] bg-[#e6f2ef] overflow-hidden relative border-[#e6f2ef] rounded-xl mt-8">
+    <div className="border-[2px] bg-[#e6f2ef] overflow-hidden relative border-[#e6f2ef] 
+    rounded-xl mt-8 md:w-[33%]">
       <div className="font-Rubik p-[36.6px]">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-[#077252] text-base pb-[10px] font-semibold">
@@ -17,7 +18,7 @@ const DreamCardYearly = () => {
         </div>
 
         <ul className="text-[#555] text-[14.4px] justify-center flex flex-col gap-3 pt-[30px]">
-          <li className="flex items-center gap-2">
+          <li className="flex items-center  gap-2">
             <GiScales className="text-[19px] text-[#40c057]" /> Free sauna
           </li>
           <li className="flex items-center gap-2">

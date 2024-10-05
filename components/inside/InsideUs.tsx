@@ -15,12 +15,22 @@ const InsideUs = () => {
       >
         At our gym u will find everything u need
       </p>
-      <CardioCard />
-      <BestBarsCard />
-
-      <div>
-        <OurEquipment />
+      <div className="md:flex md:gap-5 md:items-center">
+        <CardioCard />
+        <BestBarsCard />
+        <div>
+          <OurEquipment />
+        </div>
       </div>
+      <div className="hidden md:flex md:justify-center md:items-center md:pb-20">
+          <a
+            href="#"
+            className="text-[#087f5b] font-Rubik pb-1 text-[14.4px] border-b border-b-[#087f5b] 
+    hover:border-b-transparent text-center transition-all duration-300 ease-out"
+          >
+            Check our equipments →
+          </a>
+        </div>
     </section>
   );
 };

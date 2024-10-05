@@ -10,7 +10,7 @@ const Dream = () => {
       <h1 className="pb-3 font-Rubik text-[26.3px] text-[#333] font-bold tracking-[-0.5px] leading-[1]">
         Get your dream body
       </h1>
-      <div>
+      <div className="md:flex md:justify-center md:gap-10">
         <DreamCardMontly />
         <DreamCardYearly />
       </div>

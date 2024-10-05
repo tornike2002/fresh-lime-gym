@@ -5,8 +5,8 @@ import { IoIosPause } from "react-icons/io";
 import { IoIosPulse } from "react-icons/io";
 const Tips = () => {
   return (
-    <section className="px-6">
-      <div className="flex flex-col gap-5 pt-[50px]">
+    <section className="px-6 md:flex md:gap-4 md:justify-between md:items-center md:mb-10">
+      <div className="flex flex-col gap-5 pt-[50px] md:w-[25%]">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
           <IoIosPulse className="text-[#087f5b]  text-[25px]  " />
         </div>
@@ -15,7 +15,7 @@ const Tips = () => {
           description="Our gym is open 365 days in year, even holidays you can come!"
         />
       </div>
-      <div className="flex flex-col gap-5 pt-[50px]">
+      <div className="flex flex-col gap-5 pt-[50px] md:w-[25%]">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
           <GiKnifeFork className="text-[#087f5b]  text-[25px]  " />
         </div>
@@ -24,7 +24,7 @@ const Tips = () => {
           description="Our proteins are best in the world and organic good for health"
         />
       </div>
-      <div className="flex flex-col gap-5 pt-[50px]">
+      <div className="flex flex-col gap-5 pt-[50px] md:w-[25%]">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
           <IoRocketOutline className="text-[#087f5b] bg-[#b5d9ce] w-[25px] h-[25px]  text-[25px]  rounded-full" />
         </div>
@@ -33,7 +33,7 @@ const Tips = () => {
           description="We have motivation speakers to motivate you every day"
         />
       </div>
-      <div className="flex flex-col gap-5 pt-[50px] pb-[50px]">
+      <div className="flex flex-col gap-5 pt-[50px] md:w-[25%] pb-[50px] md:pb-0">
         <div className=" bg-[#b5d9ce] p-3 rounded-full w-fit">
           <IoIosPause className="text-[#087f5b] w-[25px] h-[25px]  text-[25px] rounded-full bg-[#b5d9ce]" />
         </div>

@@ -7,7 +7,7 @@ const BestBarsCard = () => {
   return (
     <div
       className="shadow-insite-card font-Rubik hover:-translate-y-[15px]
- transition-all duration-500 ease rounded-[11px] pt-[38px]"
+ transition-all duration-500 ease rounded-[11px] pt-[38px] h-fit md:w-[33%]"
     >
       <Image src={bestBards} alt="cardio" className="w-full rounded-t-[11px]" />
       <div className="p-[25px] flex flex-col gap-3">

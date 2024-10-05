@@ -7,7 +7,7 @@ const BenefitCard = () => {
         <h1 className="pb-3 font-Rubik text-[26.3px] text-[#333] font-bold tracking-[-0.5px] leading-[1]">
           Our benefits and skills that make u happy
         </h1>
-        <div className="flex justify-center flex-col mt-5">
+        <div className="flex justify-center flex-col mt-5 md:flex-row-reverse md:gap-5">
           <div className="flex justify-center w-[90%]  pt-5 pb-5 bg-[#e6f2ef] rounded-[20px]">
             <Image
               src={vegitable}
@@ -17,7 +17,9 @@ const BenefitCard = () => {
             />
           </div>
           <div>
-            <p className="font-Rubik text-6xl text-[#ddd] pb-[9px] pt-[25px]">01</p>
+            <p className="font-Rubik text-6xl text-[#ddd] pb-[9px] pt-[25px] md:font-medium">
+              01
+            </p>
             <h2 className="pb-[25px] font-Rubik text-[19px] text-[#333] font-bold">
               For all 7 days in week our diet plan
             </h2>
