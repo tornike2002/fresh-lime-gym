@@ -12,7 +12,7 @@ import gallery6 from "../../assets/benefits/gym-4.jpg";
 
 const Benefits = () => {
   return (
-    <section className="bg-[#e6f2ef] px-6">
+    <section id="testemonials" className="bg-[#e6f2ef] px-6">
       <h1 className="pt-[75px] pb-5 text-[#077252] font-Rubik font-medium text-[12.8px]">
         HOW WE WORK
       </h1>

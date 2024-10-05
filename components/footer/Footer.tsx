@@ -1,30 +1,56 @@
 import Image from "next/image";
 import logo from "../../assets/home/logo.png";
 import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
+import Link from "next/link"; 
+
 const Footer = () => {
   return (
     <footer className="px-6 border-t border-[#eee] pt-24 pb-24">
       <div className="flex items-center gap-3 justify-between">
         <ul className="font-Rubik flex flex-col gap-1">
           <li className="text-[#555] text-[14.4px] font-medium">Account</li>
-          <li className="text-[#767675] text-[12.8px] pt-3">Create account</li>
-          <li className="text-[#767675] text-[12.8px]">Sign in</li>
-          <li className="text-[#767675] text-[12.8px]">IOS app</li>
-          <li className="text-[#767675] text-[12.8px]">Android app</li>
+          <li className="text-[#767675] text-[12.8px] pt-3">
+            <Link href="#home">Create account</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">Sign in</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">IOS app</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">Android app</Link>
+          </li>
         </ul>
         <ul className="font-Rubik flex flex-col gap-1">
           <li className="text-[#555] text-[14.4px] font-medium">Company</li>
-          <li className="text-[#767675] text-[12.8px] pt-3">About FreshLime</li>
-          <li className="text-[#767675] text-[12.8px]">For Business</li>
-          <li className="text-[#767675] text-[12.8px]">Partners</li>
-          <li className="text-[#767675] text-[12.8px]">Careers</li>
+          <li className="text-[#767675] text-[12.8px] pt-3">
+            <Link href="#home">About FreshLime</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">For Business</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">Partners</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">Careers</Link>
+          </li>
         </ul>
         <ul className="font-Rubik flex flex-col gap-1">
-          <li className="text-[#555] text-[14.4px] font-medium">Resourses</li>
-          <li className="text-[#767675] text-[12.8px] pt-3">Working plan</li>
-          <li className="text-[#767675] text-[12.8px]">Help center</li>
-          <li className="text-[#767675] text-[12.8px]">Privacy & Terms</li>
-          <li className="text-[#767675] text-[12.8px]">My other works</li>
+          <li className="text-[#555] text-[14.4px] font-medium">Resources</li>
+          <li className="text-[#767675] text-[12.8px] pt-3">
+            <Link href="#home">Working plan</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">Help center</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">Privacy & Terms</Link>
+          </li>
+          <li className="text-[#767675] text-[12.8px]">
+            <Link href="#home">My other works</Link>
+          </li>
         </ul>
       </div>
       <div className="pt-24 flex justify-between items-start">

@@ -42,13 +42,22 @@ const Burgermenu = () => {
               onClick={toggleMenu}
               className="absolute top-4 right-6 text-4xl cursor-pointer z-50"
             />
-            <Link href="#">How it works</Link>
-            <Link href="#">Inside us</Link>
-            <Link href="#">Testimonials</Link>
-            <Link href="#">Pricing</Link>
+            <Link href="#how-it-works" onClick={() => setBurgerIcon(false)}>
+              How it works
+            </Link>
+            <Link href="#inside-us" onClick={() => setBurgerIcon(false)}>
+              Inside us
+            </Link>
+            <Link href="#testemonials" onClick={() => setBurgerIcon(false)}>
+              Testimonials
+            </Link>
+            <Link href="#dream" onClick={() => setBurgerIcon(false)}>
+              Pricing
+            </Link>
             <Link
-              href="#"
+              href="#mailing"
               className="rounded-lg bg-[#087f5b] text-white px-4 py-1"
+              onClick={() => setBurgerIcon(false)}
             >
               Try for free
             </Link>

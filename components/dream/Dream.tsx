@@ -3,7 +3,7 @@ import DreamCardYearly from "./DreamCardYearly";
 
 const Dream = () => {
   return (
-    <section className="px-6">
+    <section id="dream" className="px-6">
       <h1 className="pt-[75px] pb-1 text-[#077252] font-Rubik font-medium text-[12.8px]">
         PRICING
       </h1>

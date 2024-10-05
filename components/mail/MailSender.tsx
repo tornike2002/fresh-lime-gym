@@ -37,7 +37,7 @@ const MailSender = () => {
   };
 
   return (
-    <section className="mx-6 bg-mail-custom rounded-t-xl rounded-b-xl mb-6">
+    <section id="mailing" className="mx-6 bg-mail-custom rounded-t-xl rounded-b-xl mb-6">
       <div className="bg-mailer-gradient h-[250px] bg-cover bg-top bg-no-repeat rounded-t-xl"></div>
       <div className="font-Rubik">
         <div className="px-[25px]">
