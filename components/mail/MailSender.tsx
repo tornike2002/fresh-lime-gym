@@ -1,7 +1,5 @@
 "use client";
 import { useState } from "react";
-import girl from "../../assets/email/cta-img.jpg";
-import Image from "next/image";
 const MailSender = () => {
   const [formData, setFormData] = useState({
     fname: "",
@@ -39,7 +37,7 @@ const MailSender = () => {
   };
 
   return (
-    <section className="mx-6 bg-mail-custom rounded-t-xl">
+    <section className="mx-6 bg-mail-custom rounded-t-xl rounded-b-xl mb-6">
       <div className="bg-mailer-gradient h-[250px] bg-cover bg-top bg-no-repeat rounded-t-xl"></div>
       <div className="font-Rubik">
         <div className="px-[25px]">
@@ -71,7 +69,8 @@ const MailSender = () => {
             placeholder="Mark Godwin"
             value={formData.fname}
             onChange={handleChange}
-            className="border p-2"
+            className="border p-2 shadow-input-shadow outline-none bg-[#b5d9ce] rounded-xl 
+            focus:shadow-focus-shadow focus:outline-none text-[14.4px] text-[#02261b]"
           />
         </div>
         {/* email */}
@@ -88,7 +87,8 @@ const MailSender = () => {
             placeholder="me@example.com"
             value={formData.email}
             onChange={handleChange}
-            className="border p-2"
+            className="border p-2 shadow-input-shadow outline-none bg-[#b5d9ce] rounded-xl 
+            focus:shadow-focus-shadow focus:outline-none text-[14.4px] text-[#02261b]"
           />
         </div>
         {/* choose options */}
@@ -103,7 +103,8 @@ const MailSender = () => {
             id="hear"
             value={formData.hear}
             onChange={handleChange}
-            className="border p-2"
+            className="border p-2 shadow-input-shadow outline-none bg-[#b5d9ce] rounded-xl 
+            focus:shadow-focus-shadow focus:outline-none text-[14.4px] text-[#02261b]"
           >
             <option value="">Please Choose one option:</option>
             <option value="family">Friends and Family</option>

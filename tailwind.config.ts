@@ -16,6 +16,8 @@ const config: Config = {
       boxShadow: {
         "custom-hero": "0 1px 15px 0px #077252",
         "insite-card": "0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)",
+        "input-shadow": "box-shadow: 0 0 0 8px rgba(181, 217, 206, 0.5);",
+        "focus-shadow": "0 0 0 8px rgba(181, 217, 206, 0.5);",
       },
       colors: {
         "light-grey": "#333",
