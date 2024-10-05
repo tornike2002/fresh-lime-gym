@@ -9,7 +9,7 @@ import Tips from "@/components/tips/Tips";
 
 export default function Home() {
   return (
-    <section>
+    <section className="">
       <Hero />
       <FeaturedHello />
       <HowWeWork />

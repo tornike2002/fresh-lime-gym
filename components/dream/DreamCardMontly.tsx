@@ -1,7 +1,7 @@
 import { GiScales } from "react-icons/gi";
 const DreamCardMontly = () => {
   return (
-    <div className="border-[2px] border-[#e6f2ef] rounded-xl mt-8">
+    <div className="border-[2px] border-[#e6f2ef] rounded-xl mt-8 md:w-[33%]">
       <div className="font-Rubik p-[36.6px]">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-[#077252] text-base pb-[10px] font-semibold">

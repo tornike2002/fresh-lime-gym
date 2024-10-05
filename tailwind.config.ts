@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        'custom': '1200px',
+      },
       backgroundImage: {
         "mail-custom": "linear-gradient(to right bottom, #52a58c, #087f5b)",
         "mailer-gradient":

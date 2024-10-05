@@ -2,12 +2,12 @@ import { RiCheckDoubleFill } from "react-icons/ri";
 import { CiSquarePlus } from "react-icons/ci";
 const OurEquipment = () => {
   return (
-    <section className="mt-16">
-      <h2 className="font-Rubik text-center font-bold text-[19px] text-[#333]">
+    <section className="mt-16 md:w-[100%]">
+      <h2 className="font-Rubik text-center font-bold text-[19px] text-[#333] lg:text-[30px]">
         Our equipment:
       </h2>
       <div className="flex justify-center flex-col items-center pt-6 mb-14">
-        <ul className="flex flex-col gap-3 font-Rubik text-[14.4px] text-[#555]">
+        <ul className="flex flex-col gap-3 font-Rubik text-[14.4px] lg:text-[18px] text-[#555]">
           <li className="flex items-center gap-3">
             <RiCheckDoubleFill className="text-[#40c057] text-[24px]" /> CHEST
             PRESS MACHINE
@@ -44,7 +44,7 @@ const OurEquipment = () => {
             <CiSquarePlus className="text-[#40c057] text-[24px]" /> AND WAY MORE
           </li>
         </ul>
-        <div className="pt-5">
+        <div className="pt-5 md:hidden">
           <a
             href="#"
             className="text-[#087f5b] font-Rubik pb-1 text-[14.4px] border-b border-b-[#087f5b] 

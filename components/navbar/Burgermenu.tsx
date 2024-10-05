@@ -24,8 +24,44 @@ const Burgermenu = () => {
           <Image src={logo} alt="logo" width={95} height={28} />
         </Link>
         {burgerIcon === false ? (
-          <HiBars3 onClick={toggleMenu} className="text-4xl cursor-pointer" />
+          <HiBars3
+            onClick={toggleMenu}
+            className="text-4xl cursor-pointer lg:hidden"
+          />
         ) : null}
+        <div className="hidden lg:flex items-center gap-4 font-medium">
+          <Link
+            href="#how-it-works"
+            className="text-[16.2px] text-[#333] font-Rubik transition-all duration-500 ease-in-out hover:text-[#077252]"
+          >
+            How it works
+          </Link>
+          <Link
+            href="#inside-us"
+            className="text-[16.2px] text-[#333] font-Rubik transition-all duration-500 ease-in-out hover:text-[#077252]"
+          >
+            Inside us
+          </Link>
+          <Link
+            href="#testemonials"
+            className="text-[16.2px] text-[#333] font-Rubik transition-all duration-500 ease-in-out hover:text-[#077252]"
+          >
+            Testimonials
+          </Link>
+          <Link
+            href="#dream"
+            className="text-[16.2px] text-[#077252] font-Rubik"
+          >
+            Pricing
+          </Link>
+          <Link
+            href="#mailing"
+            className="rounded-lg bg-[#087f5b] text-white px-4 py-1"
+            onClick={() => setBurgerIcon(false)}
+          >
+            Try for free
+          </Link>
+        </div>
       </nav>
       <AnimatePresence>
         {burgerIcon && (
