@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "mail-custom": "linear-gradient(to right bottom, #52a58c, #087f5b)",
+        "mailer-gradient":
+          "linear-gradient(to right bottom, rgba(82, 165, 140, 0.35), rgba(8, 127, 91, 0.35)), url('/cta-img.jpg')",
       },
       boxShadow: {
         "custom-hero": "0 1px 15px 0px #077252",

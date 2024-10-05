@@ -39,13 +39,9 @@ const MailSender = () => {
   };
 
   return (
-    <section className="mx-6 bg-mail-custom">
-      <div className="font-Rubik ">
-        <Image
-          src={girl}
-          alt="img"
-          className="h-[300px] rounded-[11px] object-cover object-top"
-        />
+    <section className="mx-6 bg-mail-custom rounded-t-xl">
+      <div className="bg-mailer-gradient h-[250px] bg-cover bg-top bg-no-repeat rounded-t-xl"></div>
+      <div className="font-Rubik">
         <div className="px-[25px]">
           <h1 className="text-[25px] pt-5 text-[#02261b] font-bold tracking-[-0.5px] leading-[1]">
             Get your first week for free
