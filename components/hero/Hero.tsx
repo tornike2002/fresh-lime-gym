@@ -9,7 +9,10 @@ import gym from "../../assets/home/gym.jpg";
 
 const Hero = () => {
   return (
-    <main className="bg-light-lime flex flex-col items-center px-6 justify-center">
+    <main
+      id="home"
+      className="bg-light-lime flex flex-col items-center px-6 justify-center"
+    >
       <div className="font-Rubik">
         <h1
           className=" pb-[25px] text-center text-[41px] text-light-grey font-bold
@@ -24,13 +27,16 @@ const Hero = () => {
         <div className="flex items-center gap-3 justify-center">
           <button
             type="button"
-            className="bg-[#087f5b] border-none text-white text-xs px-3 py-4 rounded-lg"
+            className="bg-[#087f5b] border-none
+             text-white text-xs px-3 py-4 rounded-lg hover:bg-[#077252] 
+             transition-colors duration-500 ease-in-out"
           >
             Get your month pass
           </button>
           <button
             type="button"
-            className="py-4 px-3 text-[#555] text-xs bg-white rounded-lg"
+            className="py-4 px-3 text-[#555] text-xs bg-white rounded-lg hover:bg-[#e6f2ef] 
+             transition-all duration-500 ease-in-out hover:shadow-btn-hover "
           >
             Learn more ↓
           </button>
@@ -91,13 +97,11 @@ const Hero = () => {
         </div>
       </div>
       {/* hero gym image */}
-      <div className="mb-14 mt-9">
+      <div className="mb-14 mt-9 flex justify-center">
         <Image
           src={gym}
           alt="hero main"
-          width={232}
-          height={315}
-          className="shadow-custom-hero rounded-[15px]"
+          className="shadow-custom-hero rounded-[15px] w-[80%] "
         />
       </div>
     </main>

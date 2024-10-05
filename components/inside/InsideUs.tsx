@@ -4,7 +4,7 @@ import OurEquipment from "./OurEquipment";
 
 const InsideUs = () => {
   return (
-    <section className="px-6">
+    <section id="inside-us" className="px-6">
       <h3 className="text-[#077252] mt-20 text-center font-Rubik font-medium text-[12.8px]">
         Inside Us
       </h3>
