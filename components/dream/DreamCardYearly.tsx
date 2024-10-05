@@ -2,8 +2,10 @@ import { GiScales } from "react-icons/gi";
 
 const DreamCardYearly = () => {
   return (
-    <div className="border-[2px] bg-[#e6f2ef] overflow-hidden relative border-[#e6f2ef] 
-    rounded-xl mt-8 md:w-[33%]">
+    <div
+      className="border-[2px] bg-[#e6f2ef] overflow-hidden relative border-[#e6f2ef] 
+    rounded-xl mt-8 md:w-[33%]"
+    >
       <div className="font-Rubik p-[36.6px]">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-[#077252] text-base pb-[10px] font-semibold">
@@ -13,7 +15,7 @@ const DreamCardYearly = () => {
             <span className="text-[24px] pr-2">$</span>45
           </p>
           <p className="text-[#777] text-[12.8px] font-semibold">
-            Pay month it's just 30$
+            Pay month it&apos;s just 30$
           </p>
         </div>
 

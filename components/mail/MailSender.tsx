@@ -48,6 +48,7 @@ const MailSender = () => {
     } catch (error) {
       setMessage("");
       setError("Failed to send email. Please try again later.");
+      console.log(error)
     }
   };
 
