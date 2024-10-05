@@ -2,7 +2,7 @@
 
 This project is a modern web application built using **Next.js** with **TypeScript**, styled with **Tailwind CSS**, and includes a **contact form** integrated with **Nodemailer** to send emails.
 
-Live: (fresh-lime-gym-omega.vercel.app) 📢
+Live: [Link Text](https://fresh-lime-gym-omega.vercel.app) 📢
 
 ## Features
 
